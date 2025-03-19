@@ -1,0 +1,19 @@
+@font-face {
+      font-family: Archivo;
+      src: url(../assets/Archivo-Regular.ttf);
+}
+*, *::before, *::after{
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+}
+
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: Archivo;
+}
